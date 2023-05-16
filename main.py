@@ -5,7 +5,6 @@ from fastapi import FastAPI
 import pandas as pd
 import numpy as np
 import unicodedata
-import matplotlib.pyplot as plt
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import linear_kernel
 from ast import literal_eval
