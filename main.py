@@ -16,7 +16,8 @@ app = FastAPI()
 
 
 #ingestamos el Data Frame
-
+# se trabajo con 5000 registros dado que no se contaba con recursos suficientes, 
+# para ello se creo un nuevo dataframe restringido
 df = pd.read_csv('df_arreglado.csv' )
 copia_df=df.copy()
 copia_df = copia_df.drop(df.index[:40376])
